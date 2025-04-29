@@ -1,0 +1,148 @@
+html,
+* { margin-left: .5cm
+	margin-right:.5cm
+       font-family: Times, Times New Roman, serif; }
+
+			 .zoom img {
+	 		    height: 16%;
+					width: 10%;
+	 		       -webkit-transition: all 0.5s ease;
+	 		       -moz-transition: all 0.5s ease;
+	 		       -o-transition: all 0.5s ease;
+	 		       -ms-transition: all 0.5s ease;
+	 		       transition: all 0.5s ease;
+
+			  }
+			 .zoom img:hover { height: 19%; width:12%}
+
+
+.testoscritto {
+	font-family: verdana;
+	font-size: 17px;
+	color:black;
+	  line-height: 1.6;
+}
+.sottotitolo{
+	font-family: verdana;
+	font-size: 25px;
+	color:black;
+		text-align: center;
+		text-decoration: underline;
+
+}
+.titolo{
+	text-align: center;
+	font-family: verdana;
+     font size: 38px;
+      color:black;
+			text-decoration: bold;
+			text-decoration: underline;
+}
+
+.drop-menu {
+	margin: 0 auto;
+	padding: 0;
+	width:100%;
+}
+.menu {
+	margin:5px 0 8px;
+	padding: 0;
+	float:left;
+	width: 100%;
+	background-color: black;
+	font-size:12px;
+	font-family: verdana;
+}
+
+.menu li {
+	margin:0;
+	padding:0;
+float:left;
+	display: block;
+	border-right: 1px solid #222;
+	position: relative;
+}
+
+.menu li a {
+	float: left;
+	padding:12px 30px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration:none;
+}
+
+.menu li a:hover {
+	background: black;
+	color:#fff;
+}
+
+.menu ul {
+	margin:2px 0 0;
+	padding:0;
+	display:inline-block;
+	list-style: none;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 38px;
+	left: 0;
+	z-index:9999;
+	background: black;
+}
+
+.menu li:hover ul {
+	opacity: 1;
+	visibility: visible;
+}
+
+.menu ul li {
+	float: none;
+	display: block;
+	border: 0;
+}
+
+.menu ul a {
+	padding:10px;
+	width: 130px;
+	display: block;
+	white-space: nowrap;
+	float: none;
+	text-transform: none;
+}
+
+.menu ul a:hover {
+	background-color: #002651;
+	color:#fff;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #000;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.fisso{
+
+	position:fixed;
+	top:88%;
+	right:1%;
+}
+.recensione{
+    font-family: verdana;
+    font-size: 15px;
+    color: black;
+	}
